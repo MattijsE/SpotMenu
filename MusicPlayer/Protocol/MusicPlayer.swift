@@ -16,7 +16,7 @@ struct MusicPlayerConfig {
 public protocol MusicPlayer: class {
     
     init?()
-    weak var delegate: MusicPlayerDelegate? { get set }
+    var delegate: MusicPlayerDelegate? { get set }
     
     /// Player name of the MusicPlayer instance.
     var name: MusicPlayerName { get }
@@ -55,12 +55,12 @@ public protocol MusicPlayer: class {
 public extension MusicPlayer {
     
     /// Check whether the player is running.
-    public var isRunning: Bool {
+    var isRunning: Bool {
         return originalPlayer.isRunning
     }
     
     /// Activate the player from background or killed state.
-    public func activate() {
+    func activate() {
         originalPlayer.activate()
     }
 }
@@ -69,7 +69,7 @@ public extension MusicPlayer {
 public extension MusicPlayer {
     
     /// The date of the current track started.
-    public var trackStartDate: Date {
+    var trackStartDate: Date {
         return Date(timeIntervalSinceNow: -playerPosition)
     }
 }

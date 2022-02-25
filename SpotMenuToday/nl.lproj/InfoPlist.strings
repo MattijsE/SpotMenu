@@ -1,4 +1,4 @@
 /* Display name and description for this extension. */
 "CFBundleDisplayName" = "Speelt nu";
-"com.apple.notificationcenter.widget.description" = "Display current song playing on Spotify";
+"com.apple.notificationcenter.widget.description" = "Toon huidige nummer dat wordt afgespeeld in Spotify";
 

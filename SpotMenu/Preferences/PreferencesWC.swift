@@ -20,7 +20,7 @@ class PreferencesWindowController: NSWindowController {
         super.windowDidLoad()
         initLabels()
 
-        window?.setFrame(NSMakeRect(0, 0, 500, 300), display: true)
+        window?.setFrame(NSMakeRect(0, 0, 500, 400), display: true)
         window?.center()
     }
 

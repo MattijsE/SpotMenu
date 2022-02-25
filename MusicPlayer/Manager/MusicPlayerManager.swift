@@ -23,7 +23,7 @@ public class MusicPlayerManager {
 public extension MusicPlayerManager {
     
     /// The player names that added to the manager.
-    public var allPlayerNames: [MusicPlayerName] {
+    var allPlayerNames: [MusicPlayerName] {
         var playerNames = [MusicPlayerName]()
         for player in musicPlayers {
             playerNames.append(player.name)
@@ -32,7 +32,7 @@ public extension MusicPlayerManager {
     }
     
     /// Return the player with selected name if exists.
-    public func existMusicPlayer(with name: MusicPlayerName) -> MusicPlayer? {
+    func existMusicPlayer(with name: MusicPlayerName) -> MusicPlayer? {
         for player in musicPlayers {
             if player.name == name {
                 return player
@@ -44,7 +44,7 @@ public extension MusicPlayerManager {
     /// Add a music player to the manager.
     ///
     /// - Parameter name: The name of the music player you wanna add.
-    public func add(musicPlayer name: MusicPlayerName) {
+    func add(musicPlayer name: MusicPlayerName) {
         for player in musicPlayers {
             guard player.name != name else { return }
         }
@@ -59,7 +59,7 @@ public extension MusicPlayerManager {
     /// Add music players to the manager.
     ///
     /// - Parameter names: The names of the music player you wanna add.
-    public func add(musicPlayers names: [MusicPlayerName]) {
+    func add(musicPlayers names: [MusicPlayerName]) {
         for name in names {
             add(musicPlayer: name)
         }
@@ -68,7 +68,7 @@ public extension MusicPlayerManager {
     /// Remove a music player from the manager.
     ///
     /// - Parameter name: The name of the music player you wanna remove.
-    public func remove(musicPlayer name: MusicPlayerName) {
+    func remove(musicPlayer name: MusicPlayerName) {
         for index in 0 ..< musicPlayers.count {
             let player = musicPlayers[index]
             guard player.name == name else { continue }
@@ -87,14 +87,14 @@ public extension MusicPlayerManager {
     /// Remove music players from the manager.
     ///
     /// - Parameter names: The names of the music player you wanna remove.
-    public func remove(musicPlayers names: [MusicPlayerName]) {
+    func remove(musicPlayers names: [MusicPlayerName]) {
         for name in names {
             remove(musicPlayer: name)
         }
     }
     
     /// Remove all music players from the manager.
-    public func removeAllMusicPlayers() {
+    func removeAllMusicPlayers() {
         for player in musicPlayers {
             player.stopPlayerTracking()
         }

@@ -10,7 +10,6 @@
 
 "Issues" = "Проблемы";
 "Preferences..." = "Настройки...";
-"Check for Updates..." = "Проверить обновления...";
 "Quit" = "Выйти";
 "Now playing" = "Сейчас проигрывается";
 "Hover over an option for more information." = "Наведитесь на опцию для получения дополнительной информации.";
@@ -29,17 +28,10 @@
 "Show artist" = "Показать исполнителя";
 "Preferences" = "Настройки";
 "General" = "Общие";
-"Updates" = "Обновления";
 "Open at login" = "Открывать при входе";
 "Fix popover to the right" = "Фикс перемещения вправо";
 "Show SpotMenu icon" = "Показать иконку SpotMenu";
-"Automatically check for updates" = "Автоматические проверять обновления";
-"Automatically download updates" = "Автоматически скачивать обновления";
-"Check for Updates" = "Проверить обновления";
-"Last checked:" = "Последняя проверка:";
 "Preferences" = "Настройки";
-"Indicates whether or not to check for updates automatically." = "Указывает, можно ли автоматически проверять наличие обновлений.";
-"Indicates whether or not updates can be automatically downloaded in the background." = "Указывает, можно ли автоматически загружать обновления в фоновом режиме.";
 "Enable keyboard shortcut" = "Включить быстрые клавиши";
 "Display the current song artist and title by pressing ctrl + shift + m." = "Отображает текущего исполнителя и название песни при нажатии ctrl + shift + m.";
 "Hide text when paused" = "Спрятать текст во время паузы";

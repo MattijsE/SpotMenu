@@ -10,7 +10,6 @@
 
 "Issues" = "Problemas";
 "Preferences..." = "Preferências...";
-"Check for Updates..." = "Procurar actualizações...";
 "Quit" = "Sair";
 "Now playing" = "A reproduzir";
 "Hover over an option for more information." = "Passe o rato sobre uma opção para ver mais informações.";
@@ -29,17 +28,10 @@
 "Show artist" = "Mostrar artista";
 "Preferences" = "Preferências";
 "General" = "Geral";
-"Updates" = "Actualizações";
 "Open at login" = "Abrir no Login";
 "Fix popover to the right" = "Fixar popover à direita";
 "Show SpotMenu icon" = "Mostrar ícone do SpotMenu";
-"Automatically check for updates" = "Procurar actualizações automaticamente";
-"Automatically download updates" = "Transferir actualizações automaticamente";
-"Check for Updates" = "Procurar actualizações";
-"Last checked:" = "Última procura:";
 "Preferences" = "Preferências";
-"Indicates whether or not to check for updates automatically." = "Indica se deve ou não procurar actualizações automaticamente.";
-"Indicates whether or not updates can be automatically downloaded in the background." = "Indica se as actualizações devem ou não ser transferidas automaticamente em segundo plano.";
 "Enable keyboard shortcut" = "Enable keyboard shortcut";
 "Display the current song artist and title by pressing ctrl + shift + m." = "Display the current song artist and title by pressing ctrl + shift + m.";
 "Hide text when paused" = "Hide text when paused";

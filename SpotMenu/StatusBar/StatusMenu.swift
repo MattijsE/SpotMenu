@@ -25,11 +25,6 @@ final class StatusMenu {
             action: #selector(AppDelegate.openIssues(_:)),
             keyEquivalent: "I")
         )
-        menu.addItem(NSMenuItem(
-            title: NSLocalizedString(" - kmikiy - ", comment: ""),
-            action: #selector(AppDelegate.openKmikiy(_:)),
-            keyEquivalent: "")
-        )
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(
             title: NSLocalizedString("Preferences...", comment: ""),

@@ -27,7 +27,6 @@ final class GeneralPreferencesVC: NSViewController {
     @IBOutlet fileprivate var enableKeyboardShortcutButton: HoverButton!
     @IBOutlet fileprivate var hideTextWhenPausedButton: HoverButton!
     @IBOutlet fileprivate var moreInformation: NSTextField!
-    @IBOutlet private var withLoveFromKmikiyText: NSTextField!
 
     // MARK: - Lifecycle methods
 
@@ -54,7 +53,6 @@ final class GeneralPreferencesVC: NSViewController {
         openAtLoginButton.title = NSLocalizedString("Open at login", comment: "")
         enableKeyboardShortcutButton.title = NSLocalizedString("Enable keyboard shortcut", comment: "")
         hideTextWhenPausedButton.title = NSLocalizedString("Hide text when paused", comment: "")
-        withLoveFromKmikiyText.stringValue = NSLocalizedString("with ♥ from kmikiy", comment: "")
     }
 
     private func initButtonStates() {

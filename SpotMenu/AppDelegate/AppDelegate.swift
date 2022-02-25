@@ -36,8 +36,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     // private let popoverDelegate = PopOverDelegate()
 
     private var eventMonitor: EventMonitor?
-    private let issuesURL = URL(string: "https://github.com/kmikiy/SpotMenu/issues")
-    private let kmikiyURL = URL(string: "https://github.com/kmikiy")
+    private let issuesURL = URL(string: "https://github.com/MattijsE/SpotMenu/issues")
     private let menu = StatusMenu().menu
     private let spotMenuIcon = NSImage(named: NSImage.Name(rawValue: "StatusBarButtonImage"))
     private let spotMenuIconItunes = NSImage(named: NSImage.Name(rawValue: "StatusBarButtonImageItunes"))
@@ -233,10 +232,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         if let url = url, NSWorkspace.shared.open(url) {
             print("default browser was successfully opened")
         }
-    }
-
-    @objc func openKmikiy(_: NSMenuItem) {
-        openURL(url: kmikiyURL)
     }
 
     @objc func openIssues(_: NSMenuItem) {
